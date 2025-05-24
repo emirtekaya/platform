@@ -8,6 +8,9 @@ headers = {
     "Content-Type": "application/xml",
     "Accept": "application/json"
 }
+# This is stupid comment 
+
+
 
 # STEP 1: Get all subscribers
 subs_url = f"{base_url}/rpc/get-subscribers/extensive"
