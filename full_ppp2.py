@@ -10,7 +10,7 @@ parser.add_argument('-m', '--mac', help='Filter by MAC address (case-insensitive
 parser.add_argument('-id', '--session-id', help='Filter by Session ID')
 args = parser.parse_args()
 
-base_url = "http://213.133.212.24:2000"
+base_url = "http://213.133.199.244:2000"
 auth = HTTPBasicAuth("support", "sabel2025!")
 headers = {
     "Content-Type": "application/xml",
